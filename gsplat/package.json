@@ -13,9 +13,6 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "gsplat": "^0.2.12",
-    "node": "^21.2.0",
-    "ts-node": "^10.9.1"
+    "gsplat": "^0.2.12"
   }
 }
