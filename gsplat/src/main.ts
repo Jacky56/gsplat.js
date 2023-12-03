@@ -32,7 +32,7 @@ async function selectFile(file: File) {
 
 async function main() {
     // Load a placeholder scene
-    const url = "https://raw.githubusercontent.com/jacky56/gsplat.js/main/point_clouds/boulder.splat";
+    const url = "https://raw.githubusercontent.com/jacky56/gsplat.js/main/point_clouds/boulder2.splat";
     await SPLAT.Loader.LoadAsync(url, scene, () => {});
 
     // Render loop
