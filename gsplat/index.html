@@ -6,9 +6,21 @@
         <title>gsplat.js - File Loader</title>
     </head>
     <body>
-        <h1>drag and drop .ply or .splat files in page</h1>
-        <p>WASD to move camera, hold left click to rotate</p>
-        <div id="app"></div>
+        <h1>drag and drop .ply or .splat files in page or you can paste in url ending in .ply or splat </h1>
+        <ul>
+          <li>https://huggingface.co/datasets/dylanebert/3dgs/resolve/main/bonsai/bonsai-7k.splat</li>
+          <li>https://raw.githubusercontent.com/jacky56/gsplat.js/main/point_clouds/boulder2.splat</li>
+        </ul>
+
+        <p>WASD to move camera, hold left click to rotate, right click for translation</p>
+        <div id="progress-container">
+          <div open id="progress-dialog">
+              <p>
+                  <label for="progress-indicator">Loading PLY file...</label>
+              </p>
+              <progress max="100" id="progress-indicator"></progress>
+          </div>
+        </div>
         <script type="module" src="/src/main.ts"></script>
     </body>
 </html>
